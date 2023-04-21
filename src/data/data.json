@@ -1,0 +1,98 @@
+[
+  {
+    
+    "user": "Rachel Green",
+    "tweets": 777,
+    "followers": 100500,
+    "avatar": "http://placekitten.com/100/100",
+    "id": 1
+  },
+  {
+    
+    "user": "Monica Geller",
+    "tweets": 6360,
+    "followers": 222345,
+    "avatar": "http://placekitten.com/101/100",
+    "id": 2
+  }, {
+    
+    "user": "Phoebe Buffay",
+    "tweets": 14360,
+    "followers": 75345,
+    "avatar": "http://placekitten.com/104/100",
+    "id": 3
+  },
+  {
+    
+    "user": "Joseph Tribbiani",
+    "tweets": 1152,
+    "followers": 333,
+    "avatar": "http://placekitten.com/103/100",
+    "id": 4
+  },
+  {
+    
+    "user": "Chandler Bing",
+    "tweets": 72544,
+    "followers": 2843,
+    "avatar": "http://placekitten.com/137/100",
+    "id": 5
+  },
+  {
+    
+    "user": "Ross Geller",
+    "tweets": 173905,
+    "followers": 4523,
+    "avatar": "http://placekitten.com/106/100",
+    "id": 6
+  },
+  {
+    
+    "user": "Sheldon Cooper",
+    "tweets": 895374,
+    "followers": 18754,
+    "avatar": "http://placekitten.com/111/100",
+    "id": 7
+  },
+  {
+    
+    "user": "Leonard Hofstadter",
+    "tweets": 86485,
+    "followers": 3780,
+    "avatar": "http://placekitten.com/108/100",
+    "id": 8
+  },
+  {
+    
+    "user": "Penny Hofstadter",
+    "tweets": 564832,
+    "followers": 46853,
+    "avatar": "http://placekitten.com/109/100",
+    "id": 9
+  },
+  {
+    
+    "user": "Howard Wolowitz",
+    "tweets": 14523,
+    "followers": 2908,
+    "avatar": "http://placekitten.com/149/100",
+    "id": 10
+  },
+  {
+    
+    "user": "Rajesh Koothrappali",
+    "tweets": 3467,
+    "followers": 1795,
+    "avatar": "http://placekitten.com/114/100",
+    "id": 11
+  },
+  {
+    
+    "user": "Bernadette Rostenkowski",
+    "tweets": 90798,
+    "followers": 64345,
+    "avatar": "http://placekitten.com/115/100",
+    "id": 12
+  }
+  
+]
