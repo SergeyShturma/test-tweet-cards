@@ -1,0 +1,33 @@
+.dropdown_wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.dropdown_select {
+  border-radius: 50px;
+  border-color: rgb(38, 0, 255);
+  display: flex;
+  padding: 2px 0;
+  margin-left: 25px;
+  height: 25px;
+  width: 140px;
+  text-align: center;
+  background-color: rgb(228, 245, 247);
+  color: rgb(121, 5, 5);
+}
+
+.dropdown_select:hover,
+.dropdown_select:focus {
+  cursor: pointer;
+}
+
+.dropdown_text {
+  margin: 0 25px 0 auto;
+  font-size: 11px;
+}
+
+@media screen and (min-width: 768px) {
+  .dropdown_text {
+    font-size: 16px;
+  }
+}
