@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(203, 206, 227);
+}
+
+.gif {
+  width: 550px;
+  height: 400px;
+  display: block;
+  border: none;
+  pointer-events: none;
+}
+
+.text {
+  font-size: 22px;
+  padding: 10px;
+  text-align: center;
+}

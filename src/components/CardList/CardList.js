@@ -3,7 +3,6 @@ import storage from 'helpers/storage';
 import Card from 'components/Card/Card';
 import data from 'data/data.json';
 import s from './CardList.module.css';
-import DropDown from 'hooks/DropDown';
 
 const CardList = () => {
   const [users, setUsers] = useState(storage.load('users-list') ?? data);
@@ -31,7 +30,6 @@ const CardList = () => {
 
   return (
     <>
-      <DropDown />
       <ul className={s.list}>
         {users?.slice(0, visible).map(user => (
           <Card key={user.id} user={user} updateData={updateData} />

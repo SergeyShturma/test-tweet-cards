@@ -1,10 +1,17 @@
-import CardList from 'components/CardList/CardList';
-import s from './App.module.css';
+import { Routes, Route, Navigate } from 'react-router-dom';
+import HomePage from 'pages/HomePage';
+import { Layout } from './Layout/Layout';
+import TweetsPage from 'pages/Tweets';
 
 export const App = () => {
   return (
-    <div className={s.container}>
-      <CardList />
-    </div>
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<HomePage />} />
+        <Route path="tweets" element={<TweetsPage />} />
+        {/* <Route path="tweets/:page" element={<TweetsPage />} /> */}
+        <Route path="*" element={<Navigate to="/" />} replace={true} />
+      </Route>
+    </Routes>
   );
 };
