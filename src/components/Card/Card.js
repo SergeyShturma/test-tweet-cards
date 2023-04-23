@@ -22,14 +22,15 @@ const Card = ({ user, updateData }) => {
 
   return (
     <li className={s.item}>
-      <img className={s.logo} src={logo} alt="avatar" />
-      <img className={s.pic} src={pic} alt="avatar" />
+      <img className={s.logo} src={logo} alt="avatar" loading="lazy" />
+      <img className={s.pic} src={pic} alt="avatar" loading="lazy" />
       <img
         className={s.avatar}
         src={user.avatar}
-        width="80"
-        height="80"
+        width="62"
+        height="62"
         alt="avatar"
+        loading="lazy"
       />
       <p className={s.tweets}>{user.tweets}&nbsp;Tweets</p>
       <p className={s.followers}>
