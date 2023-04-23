@@ -9,7 +9,6 @@ export const App = () => {
       <Route path="/" element={<Layout />}>
         <Route index element={<HomePage />} />
         <Route path="tweets" element={<TweetsPage />} />
-        {/* <Route path="tweets/:page" element={<TweetsPage />} /> */}
         <Route path="*" element={<Navigate to="/" />} replace={true} />
       </Route>
     </Routes>

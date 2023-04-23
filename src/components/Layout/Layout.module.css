@@ -27,3 +27,11 @@
   background-color: #303f9f;
   color: #bcbfd7;
 }
+
+.gif {
+  width: 160px;
+  height: 100px;
+  display: block;
+  border: none;
+  pointer-events: none;
+}

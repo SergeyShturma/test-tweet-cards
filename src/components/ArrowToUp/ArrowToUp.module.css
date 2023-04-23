@@ -1,0 +1,25 @@
+.btnToUp {
+  position: fixed;
+  bottom: 80px;
+  right: 10px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+.iconToUp {
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  color: rgba(6, 41, 8, 0.6);
+  background-color: rgb(214, 238, 246, 0.7);
+  transition: all 350ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.iconToUp:hover,
+.iconToUp:focus {
+  background-color: rgb(211, 84, 38);
+  fill: white;
+  border: solid 1px black;
+}
