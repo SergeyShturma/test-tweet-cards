@@ -1,6 +1,7 @@
-import s from './ArrowToUp.module.css';
 import ScrollToTop from 'react-scroll-up';
 import { BsArrowUpCircle } from 'react-icons/bs';
+
+import s from './ArrowToUp.module.css';
 
 export const ArrowToUp = () => {
   return (

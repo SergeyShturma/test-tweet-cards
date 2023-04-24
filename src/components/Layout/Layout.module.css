@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  height: 100px;
   margin: 0 auto;
   padding: 15px 30px;
   border-bottom: 1px solid blue;
@@ -29,9 +30,16 @@
 }
 
 .gif {
-  width: 160px;
+  width: 120px;
   height: 100px;
   display: block;
   border: none;
   pointer-events: none;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }

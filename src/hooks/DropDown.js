@@ -1,6 +1,7 @@
-import s from './DropDown.module.css';
 import { useDispatch } from 'react-redux';
+
 import { setFilter } from '../redux/filterSlice';
+import s from './DropDown.module.css';
 
 const DropDown = () => {
   const dispatch = useDispatch();
