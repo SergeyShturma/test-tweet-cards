@@ -3,6 +3,7 @@ import { Outlet, NavLink, useLocation } from 'react-router-dom';
 
 import Loader from 'components/Loader';
 import { ReturnBtn } from 'components/ReturnBtn/ReturnBtn';
+import { Footer } from 'components/Footer/Footer';
 import s from 'components/Layout/Layout.module.css';
 
 export const Layout = () => {
@@ -35,6 +36,7 @@ export const Layout = () => {
           </Suspense>
         </div>
       </main>
+      <Footer />
     </>
   );
 };
