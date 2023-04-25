@@ -1,3 +1,13 @@
+main {
+  padding-bottom: 67px;
+}
+
+@media screen and (min-width: 767px) {
+  .main {
+    padding-bottom: 87px;
+  }
+}
+
 .header {
   display: flex;
   justify-content: space-around;
@@ -35,6 +45,12 @@
   display: block;
   border: none;
   pointer-events: none;
+}
+
+@media screen and (max-width: 650px) {
+  .gif {
+    max-width: 120px;
+  }
 }
 
 .wrapper {

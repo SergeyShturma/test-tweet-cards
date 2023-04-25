@@ -5,7 +5,7 @@ import s from './ArrowToUp.module.css';
 
 export const ArrowToUp = () => {
   return (
-    <ScrollToTop className={s.btnToUp} showUnder={160}>
+    <ScrollToTop style={{ zIndex: 3 }} showUnder={160}>
       <BsArrowUpCircle className={s.iconToUp} />
     </ScrollToTop>
   );

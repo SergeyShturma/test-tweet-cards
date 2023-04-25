@@ -33,3 +33,26 @@
   color: rgb(242, 234, 234);
   background-color: #303f9f;
 }
+
+.gif {
+  width: 550px;
+  height: 400px;
+  display: block;
+  border: none;
+  pointer-events: none;
+  margin: 10px auto;
+}
+
+@media screen and (max-width: 650px) {
+  .gif {
+    width: 320px;
+    height: 300px;
+  }
+}
+
+.title {
+  text-shadow: aquamarine;
+  font-size: 26px;
+  font-style: italic;
+  margin: 0 auto;
+}
