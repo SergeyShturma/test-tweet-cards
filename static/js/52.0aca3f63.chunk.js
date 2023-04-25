@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkreact_homework_template=self.webpackChunkreact_homework_template||[]).push([[52],{2052:function(e,a,t){t.r(a),t.d(a,{default:function(){return o}});var r="HomePage_container__S-kOo",s="HomePage_gif__Q5BFr",c="HomePage_text__l0cML",n=t(184);function o(){return(0,n.jsxs)("div",{className:r,children:[(0,n.jsx)("p",{className:c,children:"Thank you for using our app!"}),(0,n.jsx)("iframe",{title:"Fun",className:s,src:"https://giphy.com/embed/H1vjPkqdL7liL6O7Bj",alt:"gif"})]})}}}]);
+//# sourceMappingURL=52.0aca3f63.chunk.js.map
